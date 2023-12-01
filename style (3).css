@@ -1,0 +1,106 @@
+body
+{
+    background: url("https://img.freepik.com/free-photo/landscape-scenery-with-magenta-nature_23-2150693831.jpg?size=626&ext=jpg&ga=GA1.1.807660316.1700701547&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.num{
+    
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+
+@keyframes anima
+{
+    0%{text-shadow: 3px 3px RED;}
+    25%{text-shadow: 2px 2px BLUE;}
+    50%{text-shadow: 3px 3px RED;}
+    75%{text-shadow: 2px 2px BLUE;}
+    100%{text-shadow: 3px 3px RED;}
+}
+.binary{
+    background-image:URL(../IMAGES/binary.gif);
+    border:3px solid BLACK;
+   /* box-shadow: 0 0 10px RED, 0 0 30px BLUE;*/
+    font-size: 3rem;
+    height:16rem;
+    margin-top: 150px;
+}
+.decimal{
+    background-image:URL(../IMAGES/decimal.gif);
+    border:3px solid BLACK;
+    /*box-shadow: 0 0 10px RED, 0 0 30px BLUE;*/
+    font-size: 3rem;
+    height:16rem;
+    margin-top: 80px;
+    
+}
+.octal{
+    background-image:URL(../IMAGES/octal.gif);
+    background-position: center;
+    background-size: 50%;
+    border:3px solid BLACK;
+   /* box-shadow: 0 0 10px RED, 0 0 30px BLUE;*/
+    font-size: 3rem;
+    height:16rem;
+    margin-top: 80px;
+    
+}
+
+.hexa{
+    background-image:URL(../IMAGES/hexa.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:3px solid BLACK;
+  /*  box-shadow: 0 0 10px RED, 0 0 30px BLUE; */
+    font-size: 3rem;
+    height:16rem;
+    margin-top: 80px;
+}
+.box
+{
+    background-color: green;
+    border:3px solid BLACK;
+    box-shadow: 0 0 10px RED, 0 0 30px BLUE;
+    font-size: 3rem;
+    height:16rem;
+    
+}
+button{
+    width:150px;
+}
+.text
+{
+  padding-top: 15px;
+   /* text-shadow: 4px 2px red;*/
+}
+.texts
+{
+  font-size: 20px;
+}
+.hex{
+  padding-top: 10px;
+}
+.octa{
+  color: black;
+}
+.dropdown-menu{
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.clear{
+  padding-right: 50px;
+}
+
+.footer{
+    background-color: #9f7bba;
+    font-family:monospace;
+}
